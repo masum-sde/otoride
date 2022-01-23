@@ -1,0 +1,17 @@
+.bg-nav {
+  background-color: rgba(0, 0, 0, 0);
+}
+.text-nav {
+  color: black !important;
+  font-weight: 500;
+  margin: 0px 16px;
+}
+
+.contact-us {
+  background-color: black;
+  color: white;
+  border-radius: 16px;
+  padding: 5px 15px;
+  font-weight: 500;
+  margin: 0px 16px;
+}

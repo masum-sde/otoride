@@ -1,0 +1,18 @@
+.intro-text {
+  font-size: 70px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+.get-started {
+  background-color: black;
+  color: white;
+  border-radius: 16px;
+  padding: 5px 15px;
+  font-weight: 500;
+  margin: 0px 16px;
+  max-width: 30%;
+}
+
+img {
+  background-repeat: no-repeat;
+}
