@@ -43,7 +43,7 @@ const OperatorSection = () => {
               </Col>
             </Row>
             <Row className="mt-5">
-              <button className="learn-more-btn">Learn More</button>
+              <button className="learn-more-btn w-25">Learn More</button>
             </Row>
           </Col>
         </Row>
