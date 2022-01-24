@@ -45,11 +45,11 @@ const Footer = () => {
                 <b>Social Connections</b>
               </li>
               <div>
-                <ul className="list-inline d-flex social-icon ">
+                <ul className="list-inline d-flex  ">
                   <li>
                     <FontAwesomeIcon icon={faFacebookSquare} size="2x"></FontAwesomeIcon>
                   </li>
-                  <li>
+                  <li className="social-icon d-flex align-items-center">
                     <FontAwesomeIcon icon={faTwitter} size="2x"></FontAwesomeIcon>
                   </li>
                   <li>
