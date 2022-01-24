@@ -1,0 +1,26 @@
+.admin-section {
+  padding: 50px 0px;
+  height: 650px;
+  background-color: #fcf9f7;
+  background-image: url(../../image/admin_eclipse.png);
+  background-repeat: no-repeat;
+  background-position: 0% 35%;
+  background-size: 100px;
+}
+
+.admin-section h5 {
+  color: #ff0069;
+}
+
+.mobile-image {
+  height: 630px;
+}
+.learn-more-btn {
+  background-color: black;
+  color: white;
+  border-radius: 32px;
+  padding: 5px 15px;
+  font-weight: 500;
+  margin: 0px 16px;
+  max-width: 25%;
+}

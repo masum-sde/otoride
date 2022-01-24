@@ -1,3 +1,4 @@
+import AdminSection from "./components/AdminSection/AdminSection";
 import Footer from "./components/Footer/Footer";
 import Intro from "./components/Intro/Intro";
 import NeedOTO from "./components/NeedOTO/NeedOTO";
@@ -9,6 +10,7 @@ function App() {
     <section>
       <Intro />
       <UserSection />
+      <AdminSection />
       <OperatorSection />
       <NeedOTO />
       <Footer />
