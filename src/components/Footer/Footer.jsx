@@ -45,7 +45,7 @@ const Footer = () => {
                 <b>Social Connections</b>
               </li>
               <div>
-                <ul className="list-inline d-flex  ">
+                <ul className="list-inline d-flex">
                   <li>
                     <FontAwesomeIcon icon={faFacebookSquare} size="2x"></FontAwesomeIcon>
                   </li>
