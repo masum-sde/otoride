@@ -54,7 +54,7 @@ const UserSection = () => {
               The perfect <br /> app for your <br /> users and you
             </h1>
             {fakeListData.map((data) => (
-              <ListItemModel item={data} />
+              <ListItemModel key={data.id} item={data} />
             ))}
 
             <Row className="mt-5">
