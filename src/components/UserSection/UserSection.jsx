@@ -7,9 +7,26 @@ import userMobile3 from "../../image/user_mobile_3.png";
 import userIcon1 from "../../image/user_icon_1.svg";
 import userIcon2 from "../../image/user_icon_2.svg";
 import userIcon3 from "../../image/user_icon_3.svg";
+import ListItemModel from "../common/ListItemModel/ListItemModel";
 const UserSection = () => {
   const images = [userMobile1, userMobile2, userMobile3];
-
+  const fakeListData = [
+    {
+      id: 1,
+      icon: userIcon1,
+      title: "Realtime Vehicle Location",
+    },
+    {
+      id: 2,
+      icon: userIcon2,
+      title: "Fast Unlocking & Locking",
+    },
+    {
+      id: 3,
+      icon: userIcon3,
+      title: "Multiple Language Support",
+    },
+  ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -36,30 +53,10 @@ const UserSection = () => {
             <h1 className="mt-3">
               The perfect <br /> app for your <br /> users and you
             </h1>
-            <Row className="mt-4 d-flex align-items-center justify-content-center">
-              <Col md={2}>
-                <img src={userIcon1} alt="icon1" />
-              </Col>
-              <Col md={10}>
-                <p>Realtime Vehicle Location</p>
-              </Col>
-            </Row>
-            <Row className="mt-4 d-flex align-items-center justify-content-center">
-              <Col md={2}>
-                <img src={userIcon2} alt="icon2" />
-              </Col>
-              <Col md={10}>
-                <p>Fast Unlocking & Locking </p>
-              </Col>
-            </Row>
-            <Row className="mt-4 d-flex align-items-center justify-content-center">
-              <Col md={2}>
-                <img src={userIcon3} alt="icon3" />
-              </Col>
-              <Col md={10}>
-                <p>Multiple Language Support </p>
-              </Col>
-            </Row>
+            {fakeListData.map((data) => (
+              <ListItemModel item={data} />
+            ))}
+
             <Row className="mt-5">
               <div>
                 <Button variant="dark" className=" learn-more-btn">
