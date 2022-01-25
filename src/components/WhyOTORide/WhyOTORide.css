@@ -1,0 +1,22 @@
+.why-otoride {
+  padding: 100px 0px;
+}
+.why-otoride h1 {
+  font-weight: 700;
+  color: black;
+  font-size: 64px;
+}
+
+.light-yellow-eclipse {
+  background-image: url("../../image/why_light_yellow_eclipse.png");
+  background-repeat: no-repeat;
+  background-position: 90% 40%;
+  background-size: 20px;
+}
+
+.blue-eclipse {
+  background-image: url("../../image/why_blue-eclipse.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  background-size: 120px;
+}
