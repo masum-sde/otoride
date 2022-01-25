@@ -5,6 +5,7 @@ import Intro from "./components/Intro/Intro";
 import NeedOTO from "./components/NeedOTO/NeedOTO";
 import OperatorSection from "./components/OperatorSection/OperatorSection";
 import UserSection from "./components/UserSection/UserSection";
+import VehicleSupportSection from "./components/VehicleSupportSection/VehicleSupportSection";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <UserSection />
       <AdminSection />
       <OperatorSection />
+      <VehicleSupportSection />
       <BlogSection />
       <NeedOTO />
       <Footer />
