@@ -6,11 +6,13 @@ import NeedOTO from "./components/NeedOTO/NeedOTO";
 import OperatorSection from "./components/OperatorSection/OperatorSection";
 import UserSection from "./components/UserSection/UserSection";
 import VehicleSupportSection from "./components/VehicleSupportSection/VehicleSupportSection";
+import WhyOTORide from "./components/WhyOTORide/WhyOTORide";
 
 function App() {
   return (
     <section>
       <Intro />
+      <WhyOTORide />
       <UserSection />
       <AdminSection />
       <OperatorSection />
