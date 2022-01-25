@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import "./AdminSection.css";
 import adminPic1 from "../../image/admin_pc_1.png";
 import adminPic2 from "../../image/admin_pc_2.png";
@@ -58,7 +58,11 @@ const AdminSection = () => {
               </Col>
             </Row>
             <Row className="mt-5">
-              <button className="learn-more-btn w-25">Learn More</button>
+              <div>
+                <Button variant="dark" className=" learn-more-btn">
+                  Learn More
+                </Button>
+              </div>
             </Row>
           </Col>
           <Col md={6} className="d-flex align-items-center justify-content-center">

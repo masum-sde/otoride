@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import "./UserSection.css";
 import userMobile1 from "../../image/user_mobile_1.png";
 import userMobile2 from "../../image/user_mobile_2.png";
@@ -61,7 +61,11 @@ const UserSection = () => {
               </Col>
             </Row>
             <Row className="mt-5">
-              <button className="learn-more-btn w-25">Learn More</button>
+              <div>
+                <Button variant="dark" className=" learn-more-btn">
+                  Learn More
+                </Button>
+              </div>
             </Row>
           </Col>
         </Row>

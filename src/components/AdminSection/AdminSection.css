@@ -16,11 +16,7 @@
   height: 630px;
 }
 .learn-more-btn {
-  background-color: black;
-  color: white;
-  border-radius: 32px;
-  padding: 5px 15px;
-  font-weight: 500;
-  margin: 0px 16px;
-  max-width: 25%;
+  border-radius: 28px !important;
+  padding: 5px 20px !important;
+  background-color: black !important;
 }

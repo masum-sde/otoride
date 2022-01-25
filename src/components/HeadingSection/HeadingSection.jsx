@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import "./HeadingSection.css";
 import headingPic from "../../image/heading_pic.png";
 import logo_1 from "../../image/logo_1.png";
@@ -19,9 +19,11 @@ const HeadingSection = () => {
                   Most Advanced <br /> Vehicle Sharing <br /> Platform
                 </h1>
               </Row>
-              <Row className="w-25">
-                <button className="get-started">Get Started</button>
-              </Row>
+              <div>
+                <Button variant="dark" className=" get-started">
+                  Get Started
+                </Button>
+              </div>
             </Row>
             <Row className="mt-5">
               <Col md={4} className="d-flex align-items-center justify-content-end">
