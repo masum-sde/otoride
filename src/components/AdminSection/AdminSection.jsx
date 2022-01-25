@@ -7,9 +7,28 @@ import adminPic3 from "../../image/admin_pc_3.png";
 import adminIcon1 from "../../image/admin_icon_1.svg";
 import adminIcon2 from "../../image/admin_icon_2.svg";
 import adminIcon3 from "../../image/admin_icon_3.svg";
+import ListItemModel from "../common/ListItemModel/ListItemModel";
 
 const AdminSection = () => {
   const images = [adminPic1, adminPic2, adminPic3];
+
+  const fakeListData = [
+    {
+      id: 1,
+      icon: adminIcon1,
+      title: "User Management",
+    },
+    {
+      id: 2,
+      icon: adminIcon2,
+      title: "Trip Management",
+    },
+    {
+      id: 3,
+      icon: adminIcon3,
+      title: "Offers and promotions Management",
+    },
+  ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -24,6 +43,7 @@ const AdminSection = () => {
 
     return () => clearInterval(intervalId);
   }, [currentIndex]);
+
   return (
     <section className="admin-section">
       <Container>
@@ -33,30 +53,10 @@ const AdminSection = () => {
             <h1 className="mt-3">
               The perfect <br /> app for your <br /> users and you
             </h1>
-            <Row className="mt-4 d-flex align-items-center justify-content-center">
-              <Col md={2}>
-                <img src={adminIcon1} alt="icon1" />
-              </Col>
-              <Col md={10}>
-                <p>User Management</p>
-              </Col>
-            </Row>
-            <Row className="mt-4 d-flex align-items-center justify-content-center">
-              <Col md={2}>
-                <img src={adminIcon2} alt="icon2" />
-              </Col>
-              <Col md={10}>
-                <p>Trip Management </p>
-              </Col>
-            </Row>
-            <Row className="mt-4 d-flex align-items-center justify-content-center">
-              <Col md={2}>
-                <img src={adminIcon3} alt="icon3" />
-              </Col>
-              <Col md={10}>
-                <p>Offers and promotions Management </p>
-              </Col>
-            </Row>
+            {fakeListData.map((data) => (
+              <ListItemModel key={data.id} item={data} />
+            ))}
+
             <Row className="mt-5">
               <div>
                 <Button variant="dark" className=" learn-more-btn">
