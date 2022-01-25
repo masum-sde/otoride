@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import "./OperatorSection.css";
 import mobileOperator from "../../image/mobile_operator.png";
 import icon1 from "../../image/icon_1.svg";
@@ -43,7 +43,11 @@ const OperatorSection = () => {
               </Col>
             </Row>
             <Row className="mt-5">
-              <button className="learn-more-btn w-25">Learn More</button>
+              <div>
+                <Button variant="dark" className=" learn-more-btn">
+                  Learn More
+                </Button>
+              </div>
             </Row>
           </Col>
         </Row>
