@@ -25,11 +25,11 @@ const BlogSection = () => {
     },
   ];
   return (
-    <section>
-      <Container>
+    <section className="blog">
+      <Container fluid="md">
         <Row className="mt-4 mb-5 text-center">
-          <h5 className="mt-4 text-primary">Blog</h5>
-          <h1 className="mt-4">
+          <h5 className="mt-4 text-primary display-6">Blog</h5>
+          <h1 className="mt-4 display-4">
             Discover our products <br />
             technologies and clients
           </h1>
