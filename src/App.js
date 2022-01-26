@@ -17,7 +17,7 @@ function App() {
       <AdminSection />
       <OperatorSection /> */}
       <VehicleSupportSection />
-      {/* <BlogSection /> */}
+      <BlogSection />
       <NeedOTO />
       <Footer />
     </section>

@@ -1,9 +1,10 @@
 .blog-card {
   transform: scale(1);
   transition: all 0.8s ease-in-out;
+  padding: 1rem 0;
 }
 
 .blog-card:hover {
-  transform: scale(1.1);
+  transform: scale(1.07);
   transition: all 0.8s ease-in-out;
 }
