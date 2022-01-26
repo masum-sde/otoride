@@ -1,12 +1,11 @@
 .footer {
-  height: 500px;
+  padding: 2rem 0;
   background-color: black;
 }
 
 .image-size {
-  margin: 50px 0px;
-
-  width: 200px;
+  margin: 4rem 0;
+  width: 15rem;
 }
 
 .list {
