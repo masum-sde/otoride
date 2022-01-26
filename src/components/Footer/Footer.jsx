@@ -7,10 +7,10 @@ import { faFacebookSquare, faLinkedinIn, faTwitter } from "@fortawesome/free-bra
 const Footer = () => {
   return (
     <footer className="footer">
-      <Container>
+      <Container fluid="md">
         <img src={otoWhiteLogo} alt="otoride" className="image-size" />
         <Row className="list">
-          <Col md={2}>
+          <Col sm={2}>
             <ul>
               <li className="text-white">
                 <b>Products</b>
@@ -22,7 +22,7 @@ const Footer = () => {
               <li>iOT</li>
             </ul>
           </Col>
-          <Col md={2}>
+          <Col sm={2}>
             <ul>
               <li className="text-white">
                 <b>Blog</b>
@@ -31,7 +31,7 @@ const Footer = () => {
               <li>Press</li>
             </ul>
           </Col>
-          <Col md={3}>
+          <Col sm={3}>
             <ul>
               <li className="text-white">
                 <b>Location</b>
@@ -39,7 +39,7 @@ const Footer = () => {
               <li>Flat B4, House 02/A, Road 1, Niketon, Gulshan 1, Dhaka - 1212</li>
             </ul>
           </Col>
-          <Col md={5}>
+          <Col sm={5}>
             <ul>
               <li className="text-white">
                 <b>Social Connections</b>

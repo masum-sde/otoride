@@ -11,13 +11,13 @@ import WhyOTORide from "./components/WhyOTORide/WhyOTORide";
 function App() {
   return (
     <section>
-      <Intro />
+      {/* <Intro />
       <WhyOTORide />
       <UserSection />
       <AdminSection />
-      <OperatorSection />
+      <OperatorSection /> */}
       <VehicleSupportSection />
-      <BlogSection />
+      {/* <BlogSection /> */}
       <NeedOTO />
       <Footer />
     </section>
