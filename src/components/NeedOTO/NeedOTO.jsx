@@ -6,7 +6,7 @@ import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 const NeedOTO = () => {
   return (
     <section className="need-oto">
-      <Container>
+      <Container fluid="md">
         <h2 className="display-2">Need OTO Applications?</h2>
         <div className="d-flex align-items-center justify-content-start">
           <a href="#contact" className="display-2">
