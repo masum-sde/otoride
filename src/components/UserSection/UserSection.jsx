@@ -43,16 +43,14 @@ const UserSection = () => {
 
   return (
     <section className="user-section">
-      <Container>
+      <Container fluid="md">
         <Row>
-          <Col md={6} className="d-flex align-items-center justify-content-center">
-            <img src={images[currentIndex]} alt="" className="mobile-image" />
+          <Col sm={6} className="d-flex align-items-center justify-content-center">
+            <img src={images[currentIndex]} alt="" className=" img-fluid " />
           </Col>
-          <Col md={6} className="mt-5">
-            <h5 className="text-primary mt-1">USER APPLICATION</h5>
-            <h1 className="mt-3">
-              The perfect <br /> app for your <br /> users and you
-            </h1>
+          <Col sm={6} className="mt-5 ">
+            <h3 className="text-primary mt-1 ">RIDER APP</h3>
+            <h1 className="mt-3  display-4">Perfect Customizable Rider app </h1>
             {fakeListData.map((data) => (
               <ListItemModel key={data.id} item={data} />
             ))}

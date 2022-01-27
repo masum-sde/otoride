@@ -12,8 +12,8 @@ function App() {
   return (
     <section>
       {/* <Intro />
-      <WhyOTORide />
-      <UserSection /> */}
+      <WhyOTORide /> */}
+      <UserSection />
       <AdminSection />
       <OperatorSection />
       <VehicleSupportSection />
