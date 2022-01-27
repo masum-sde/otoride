@@ -28,16 +28,14 @@ const OperatorSection = () => {
 
   return (
     <section className="operator-section">
-      <Container>
+      <Container fluid="md">
         <Row>
-          <Col md={6} className="d-flex align-items-center justify-content-center">
-            <img src={mobileOperator} alt="" className="mobile-image" />
+          <Col sm={6} className="d-flex align-items-center justify-content-center">
+            <img src={mobileOperator} alt="" className=" img-fluid " />
           </Col>
-          <Col md={6} className="mt-5">
-            <h5 className="text-success mt-1">OPERATOR APPLICATION</h5>
-            <h1 className="mt-3">
-              Easy and <br /> affordable
-            </h1>
+          <Col sm={6} className="mt-5 ">
+            <h3 className="text-success mt-1 ">OPERATOR APPLICATION</h3>
+            <h1 className="mt-3  display-4">Easy and affordable</h1>
             {fakeListData.map((data) => (
               <ListItemModel key={data.id} item={data} />
             ))}
