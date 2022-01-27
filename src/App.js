@@ -11,8 +11,8 @@ import WhyOTORide from "./components/WhyOTORide/WhyOTORide";
 function App() {
   return (
     <section>
-      {/* <Intro />
-      <WhyOTORide /> */}
+      {/* <Intro /> */}
+      <WhyOTORide />
       <UserSection />
       <AdminSection />
       <OperatorSection />
