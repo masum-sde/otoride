@@ -4,11 +4,11 @@ import "./ListItemModel.css";
 const ListItemModel = ({ item }) => {
   const { icon, title } = item;
   return (
-    <Row className="mt-4 d-flex align-items-center justify-content-center">
-      <Col md={2}>
-        <img src={icon} alt="icon1" />
+    <Row className="mt-4 list-item-model">
+      <Col xs={2} className="d-flex align-items-center justify-content-end">
+        <img src={icon} alt="icon1" className="img-fluid" />
       </Col>
-      <Col md={10}>
+      <Col xs={10} className="d-flex align-items-center justify-content-start">
         <p>{title}</p>
       </Col>
     </Row>

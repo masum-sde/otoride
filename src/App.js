@@ -14,8 +14,8 @@ function App() {
       {/* <Intro />
       <WhyOTORide />
       <UserSection />
-      <AdminSection />
-      <OperatorSection /> */}
+      <AdminSection /> */}
+      <OperatorSection />
       <VehicleSupportSection />
       <BlogSection />
       <NeedOTO />
