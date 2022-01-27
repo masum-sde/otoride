@@ -13,8 +13,8 @@ function App() {
     <section>
       {/* <Intro />
       <WhyOTORide />
-      <UserSection />
-      <AdminSection /> */}
+      <UserSection /> */}
+      <AdminSection />
       <OperatorSection />
       <VehicleSupportSection />
       <BlogSection />
