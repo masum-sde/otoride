@@ -6,13 +6,6 @@
   background-size: 9rem;
 }
 
-.learn-more-btn {
-  border-radius: 1.75rem !important;
-  padding: 0.32rem 1.25rem !important;
-  background-color: black !important;
-  margin-bottom: 2rem;
-}
-
 .operator-section h1 {
   font-weight: 700;
   color: black;
@@ -20,4 +13,11 @@
 
 .operator-section h3 {
   font-weight: 400;
+}
+
+.learn-more-btn {
+  border-radius: 1.75rem !important;
+  padding: 0.32rem 1.25rem !important;
+  background-color: black !important;
+  margin-bottom: 2rem;
 }
