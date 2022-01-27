@@ -50,8 +50,8 @@ const WhyOTORide = () => {
     <section className="why-otoride light-yellow-eclipse">
       <div className="blue-eclipse">
         <Container>
-          <h1>Why OTORide</h1>
-          <Row className="me-5 ms-5">
+          <h1 className="display-3">Why OTORide</h1>
+          <Row className="mt-5 mb-5">
             {fakeCardData.map((data) => (
               <FeatureCard feature={data} />
             ))}
