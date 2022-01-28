@@ -27,7 +27,7 @@ const VehicleSupportSection = () => {
   const zoomInEffect = (currentIndex) => {
     const vId = "vehicle" + currentIndex;
     document.getElementById(vId).style.transition = "all 0.5s ease-in-out";
-    document.getElementById(vId).style.transform = "scale(1.1)";
+    document.getElementById(vId).style.transform = "scale(1.07)";
   };
 
   const zoomOutEffect = (currentIndex) => {
@@ -39,9 +39,9 @@ const VehicleSupportSection = () => {
   return (
     <section className="vehicle-support-section text-center mt-4 mb-5 green-eclipse">
       <div className="light-pink-eclipse">
-        <Container>
+        <Container fluid="md">
           <Row>
-            <h1>
+            <h1 className="display-4">
               Kick scooters, <br /> scooters, bikes, e-bikes <br /> and more in one app
             </h1>
             <div>
@@ -52,8 +52,8 @@ const VehicleSupportSection = () => {
           </Row>
           <Row className="me-5 ps-5 mt-5 mb-5">
             {fakeVehicleImage.map((image, id) => (
-              <Col className="d-flex align-items-center justify-content-center vehicle">
-                <img src={image} alt="vehicle" className="" id={`vehicle${id}`} />
+              <Col xs={6} sm={3} className="d-flex align-items-center justify-content-center vehicle">
+                <img src={image} alt="vehicle" className="img-fluid" id={`vehicle${id}`} />
               </Col>
             ))}
           </Row>

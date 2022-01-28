@@ -4,7 +4,7 @@ import "./FeatureCard.css";
 const FeatureCard = ({ feature }) => {
   const { icon, eclipse, title, description } = feature;
   return (
-    <Col md={3} className="d-flex align-items-center justify-content-center mt-5 ">
+    <Col xs={12} sm={6} lg={3} className="d-flex align-items-center justify-content-center mt-5 ">
       <Card className="feature-card">
         <div id="image-container">
           <img src={eclipse} alt="eclipse" id="eclipse" />

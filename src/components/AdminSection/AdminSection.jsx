@@ -46,13 +46,11 @@ const AdminSection = () => {
 
   return (
     <section className="admin-section">
-      <Container>
+      <Container fluid="md">
         <Row>
-          <Col md={6} className="mt-5">
-            <h5 className="mt-1">ADMIN APPLICATION</h5>
-            <h1 className="mt-3">
-              The perfect <br /> app for your <br /> users and you
-            </h1>
+          <Col xs={{ span: 12, order: 2 }} sm={{ span: 6, order: 1 }} className="mt-5">
+            <h3 className="mt-1 ">ADMIN PANEL</h3>
+            <h1 className="mt-3  display-4">Super Powerful Real Time Dashboard </h1>
             {fakeListData.map((data) => (
               <ListItemModel key={data.id} item={data} />
             ))}
@@ -65,8 +63,12 @@ const AdminSection = () => {
               </div>
             </Row>
           </Col>
-          <Col md={6} className="d-flex align-items-center justify-content-center">
-            <img src={images[currentIndex]} alt="" className="mobile-image" />
+          <Col
+            xs={{ span: 12, order: 1 }}
+            sm={{ span: 6, order: 2 }}
+            className="d-flex align-items-center justify-content-center"
+          >
+            <img src={images[currentIndex]} alt="" className=" img-fluid " />
           </Col>
         </Row>
       </Container>

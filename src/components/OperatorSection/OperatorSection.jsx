@@ -12,32 +12,30 @@ const OperatorSection = () => {
     {
       id: 1,
       icon: icon1,
-      title: "Smart Task Management",
+      title: "Smart Vehicle Task Management",
     },
     {
       id: 2,
       icon: icon2,
-      title: "Realtime Vehicle Routing",
+      title: "Real Time navigation ",
     },
     {
       id: 3,
       icon: icon3,
-      title: "Filter Vehicle by Issue type",
+      title: "Find problematic Vehicles by Advanced filters",
     },
   ];
 
   return (
     <section className="operator-section">
-      <Container>
+      <Container fluid="md">
         <Row>
-          <Col md={6} className="d-flex align-items-center justify-content-center">
-            <img src={mobileOperator} alt="" className="mobile-image" />
+          <Col sm={6} className="d-flex align-items-center justify-content-center">
+            <img src={mobileOperator} alt="" className=" img-fluid " />
           </Col>
-          <Col md={6} className="mt-5">
-            <h5 className="text-success mt-1">OPERATOR APPLICATION</h5>
-            <h1 className="mt-3">
-              Easy and <br /> affordable
-            </h1>
+          <Col sm={6} className="mt-5 ">
+            <h3 className="text-success mt-1 ">OPERATOR APP</h3>
+            <h1 className="mt-3  display-4">Smart Vehicle Task Tracking App</h1>
             {fakeListData.map((data) => (
               <ListItemModel key={data.id} item={data} />
             ))}

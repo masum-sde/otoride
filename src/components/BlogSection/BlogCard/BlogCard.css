@@ -1,9 +1,16 @@
 .blog-card {
+  border-radius: 16px !important;
+  transition: all 0.5s ease;
   transform: scale(1);
-  transition: all 0.8s ease-in-out;
+  margin: 1rem 0;
 }
 
 .blog-card:hover {
-  transform: scale(1.1);
-  transition: all 0.8s ease-in-out;
+  box-shadow: 2px 5px 40px rgba(128, 128, 128, 0.692);
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+
+.blog-card .image {
+  border-radius: 16px 16px 0 0 !important;
 }

@@ -1,17 +1,23 @@
 .operator-section {
-  padding: 50px 0px;
-  height: 650px;
+  padding: 3rem 0;
   background-image: url(../../image/yellow_eclipse.png);
   background-repeat: no-repeat;
   background-position: 95% 35%;
-  background-size: 150px;
+  background-size: 9rem;
 }
 
-.mobile-image {
-  height: 630px;
+.operator-section h1 {
+  font-weight: 700;
+  color: black;
 }
+
+.operator-section h3 {
+  font-weight: 400;
+}
+
 .learn-more-btn {
-  border-radius: 28px !important;
-  padding: 5px 20px !important;
+  border-radius: 1.75rem !important;
+  padding: 0.32rem 1.25rem !important;
   background-color: black !important;
+  margin-bottom: 2rem;
 }

@@ -1,14 +1,19 @@
-.intro-text {
-  font-size: 70px;
-  font-weight: 900;
-  margin-bottom: 25px;
+.head-section {
+  padding: 3rem 0;
 }
-.get-started {
-  border-radius: 28px !important;
-  padding: 5px 20px !important;
-  background-color: black !important;
+.head-section h1 {
+  font-weight: 900;
+  margin-bottom: 1.5rem;
 }
 
-img {
-  background-repeat: no-repeat;
+.head-section h1 {
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+
+.get-started {
+  border-radius: 1.75rem !important;
+  padding: 0.32rem 1.25rem !important;
+  background-color: black !important;
+  margin-bottom: 2rem;
 }
