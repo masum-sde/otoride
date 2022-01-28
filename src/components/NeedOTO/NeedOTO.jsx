@@ -8,11 +8,11 @@ const NeedOTO = () => {
     <section className="need-oto">
       <Container fluid="md">
         <h2 className="display-2">Need OTO Applications?</h2>
-        <div className="d-flex align-items-center justify-content-start">
+        <div data-aos="fade-right" id="contact-link" className="d-flex align-items-center justify-content-start">
           <a href="#contact" className="display-2">
             Contact With Us
           </a>
-          <span>
+          <span data-aos="fade-left">
             <FontAwesomeIcon icon={faLongArrowAltRight} size="2x" />
           </span>
         </div>

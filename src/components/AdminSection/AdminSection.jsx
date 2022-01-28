@@ -48,7 +48,7 @@ const AdminSection = () => {
     <section className="admin-section">
       <Container fluid="md">
         <Row>
-          <Col sm={6} className="mt-5 ">
+          <Col xs={{ span: 12, order: 2 }} sm={{ span: 6, order: 1 }} className="mt-5">
             <h3 className="mt-1 ">ADMIN PANEL</h3>
             <h1 className="mt-3  display-4">Super Powerful Real Time Dashboard </h1>
             {fakeListData.map((data) => (
@@ -63,7 +63,11 @@ const AdminSection = () => {
               </div>
             </Row>
           </Col>
-          <Col sm={6} className="d-flex align-items-center justify-content-center">
+          <Col
+            xs={{ span: 12, order: 1 }}
+            sm={{ span: 6, order: 2 }}
+            className="d-flex align-items-center justify-content-center"
+          >
             <img src={images[currentIndex]} alt="" className=" img-fluid " />
           </Col>
         </Row>
