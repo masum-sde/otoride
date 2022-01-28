@@ -73,7 +73,10 @@ const TestimonialSection = () => {
   // } else {
   //   document.getElementById(currentId).style.backgroundColor = "";
   // }
-  // useEffect(() => {}, [currentId]);
+  // useEffect(() => {
+  //   const btn = document.getElementById(currentId);
+  //   btn.classList.add("logohover");
+  // }, [currentId]);
 
   return (
     <section className="testimonial-section">
@@ -87,7 +90,11 @@ const TestimonialSection = () => {
             <div className="testimonial-container">
               <div className="logo-container">
                 {fakeTestimonialData.map((data) => (
-                  <button id={data.id} className="logo p-4" onMouseOver={() => setCurrentId(data.id)}>
+                  <button
+                    id={data.id}
+                    className={currentId === data.id ? "logohover p-4" : "logo p-4"}
+                    onMouseOver={() => setCurrentId(data.id)}
+                  >
                     <img src={data.companyLogo} />
                   </button>
                 ))}

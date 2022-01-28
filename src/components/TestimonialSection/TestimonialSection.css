@@ -39,9 +39,9 @@
   transition: 0.5 all;
 }
 
-.logo:hover {
+.logohover {
   filter: grayscale(0);
-  background-color: white;
+  background: white;
   transition: 1s all;
   border-radius: 10px;
 }
