@@ -1,0 +1,26 @@
+.testimonial-card {
+  border-radius: 5px;
+}
+
+.testimonial-card h3 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 576px) {
+  .testimonial-card .vehicle-image {
+    display: none;
+  }
+  .testimonial-card .all-info {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .testimonial-card .vehicle-image {
+    display: none;
+  }
+  .testimonial-card .all-info {
+    text-align: center;
+  }
+}

@@ -1,0 +1,50 @@
+.testimonial-section {
+  padding: 3% 0%;
+  width: 100%;
+  background: url("../../image/success/quotes.png");
+  background-repeat: no-repeat;
+  background-position: 50% 15%;
+  background-size: 20rem;
+}
+
+.testimonial-section h1 {
+  font-weight: 700;
+  color: black;
+}
+
+.testimonial-section h5 {
+  font-weight: 350;
+  color: #ffb800;
+}
+
+.testimonial-container {
+  background-color: black;
+  padding: 5%;
+  border-radius: 5px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+}
+
+.logo-container button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+.logo {
+  filter: grayscale(1);
+  transition: 0.5 all;
+}
+
+.logo:hover {
+  filter: grayscale(0);
+  background-color: white;
+  transition: 1s all;
+  border-radius: 10px;
+}
+.testimonial-card-container {
+  padding: 1rem;
+}
