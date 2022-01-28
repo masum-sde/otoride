@@ -6,9 +6,6 @@
   font-weight: 700;
 }
 
-.payment-section p {
-  font-size: 20px;
-}
 @media only screen and (min-width: 768px) {
   .payment {
     padding: 0 15%;
