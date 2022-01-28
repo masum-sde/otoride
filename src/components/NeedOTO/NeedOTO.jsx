@@ -1,8 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Container } from "react-bootstrap";
-import "./NeedOTO.css";
 import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
+import "./NeedOTO.css";
+
 const NeedOTO = () => {
   return (
     <section className="need-oto">
