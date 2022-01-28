@@ -1,0 +1,22 @@
+.internet {
+  background-color: black;
+  padding: 3rem 0;
+  clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.internet h1 {
+  font-weight: 700;
+}
+
+.internet-container {
+  padding: 20% 5% 5% 5%;
+}
+
+.internet .get-started {
+  border-radius: 1.75rem !important;
+  padding: 0.32rem 1.25rem !important;
+  background-color: yellow !important;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}

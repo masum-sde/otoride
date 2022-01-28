@@ -9,6 +9,7 @@ import VehicleSupportSection from "./components/VehicleSupportSection/VehicleSup
 import WhyOTORide from "./components/WhyOTORide/WhyOTORide";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import PaymentInternetSection from "./components/PaymentInternetSection/PaymentInternetSection";
 function App() {
   AOS.init({ duration: 1000 });
   return (
@@ -20,6 +21,7 @@ function App() {
       <OperatorSection />
       <VehicleSupportSection />
       <BlogSection />
+      <PaymentInternetSection />
       <NeedOTO />
       <Footer />
     </section>
