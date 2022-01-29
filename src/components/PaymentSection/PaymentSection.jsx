@@ -8,7 +8,7 @@ const PaymentSection = () => {
       <Container className="payment">
         <Row className="d-flex align-items-center justify-content-center pb-5 pt-5">
           <Col md={6} className="mt-3 mb-3">
-            <h1 className="display-4">A fully integrated suite of payments products</h1>
+            <h1 className="display-4">We are transforming cities</h1>
           </Col>
           <Col md={6} className="mt-3 mb-3">
             <p className="text-muted">
