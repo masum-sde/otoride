@@ -15,7 +15,7 @@ const TestimonialSection = () => {
       id: "logo0",
       employeeName: "Rahim Darex",
       employeeDesignation: "CEO",
-      companyName: "Ignite",
+      companyName: "SAP",
       companyLogo: sap,
       testimonial:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae perferendis molestiae sit voluptatum sunt culpa.",
@@ -26,7 +26,7 @@ const TestimonialSection = () => {
       id: "logo1",
       employeeName: "Laru Ken",
       employeeDesignation: "CTO",
-      companyName: "Deloite",
+      companyName: "American Airlines",
       companyLogo: americanAirlines,
       testimonial: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, maxime!",
       avatarImage: avatar,
@@ -36,7 +36,7 @@ const TestimonialSection = () => {
       id: "logo2",
       employeeName: "Selim Reza",
       employeeDesignation: "Manager",
-      companyName: "Falits",
+      companyName: "Spotify",
       companyLogo: spotify,
       testimonial: "Consectetur adipisicing elit. Beatae perferendis molestiae sit voluptatum sunt culpa.",
       avatarImage: avatar,
@@ -46,7 +46,7 @@ const TestimonialSection = () => {
       id: "logo3",
       employeeName: "Halbi Nok",
       employeeDesignation: "CFO",
-      companyName: "BEKAR",
+      companyName: "HAYDE",
       companyLogo: companyLogo2,
       testimonial: "Beatae perferendis molestiae sit voluptatum sunt culpa.",
       avatarImage: avatar,
@@ -56,7 +56,7 @@ const TestimonialSection = () => {
       id: "logo4",
       employeeName: "Jal Malik",
       employeeDesignation: "Director",
-      companyName: "Kochu Shak",
+      companyName: "Ignite",
       companyLogo: companyLogo1,
       testimonial:
         "Ipsum dolor sit amet, consectetur adipisicing elit. Beatae perferendis molestiae sit voluptatum sunt culpa.",
@@ -67,16 +67,6 @@ const TestimonialSection = () => {
 
   const [currentId, setCurrentId] = useState("logo1");
   const loadData = fakeTestimonialData.find((data) => data.id === currentId);
-
-  // if (currentId === loadData.id) {
-  //   document.getElementById(currentId).style.backgroundColor = "white";
-  // } else {
-  //   document.getElementById(currentId).style.backgroundColor = "";
-  // }
-  // useEffect(() => {
-  //   const btn = document.getElementById(currentId);
-  //   btn.classList.add("logohover");
-  // }, [currentId]);
 
   return (
     <section className="testimonial-section">
@@ -90,13 +80,17 @@ const TestimonialSection = () => {
             <div className="testimonial-container">
               <div className="logo-container">
                 {fakeTestimonialData.map((data) => (
-                  <button
+                  <div
                     id={data.id}
-                    className={currentId === data.id ? "logohover p-4" : "logo p-4"}
+                    className={
+                      currentId === data.id
+                        ? "logohover p-md-3 d-flex align-items-center justify-content-center"
+                        : "logo p-md-3 d-flex align-items-center justify-content-center"
+                    }
                     onMouseOver={() => setCurrentId(data.id)}
                   >
                     <img src={data.companyLogo} />
-                  </button>
+                  </div>
                 ))}
               </div>
               <div className="testimonial-card-container">
