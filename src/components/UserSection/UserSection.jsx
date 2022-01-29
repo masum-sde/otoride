@@ -45,7 +45,7 @@ const UserSection = () => {
     <section className="user-section">
       <Container fluid="md">
         <Row>
-          <Col sm={6} className="d-flex align-items-center justify-content-center">
+          <Col sm={6} className="d-flex align-items-center justify-content-center user-app">
             <img src={images[currentIndex]} alt="" className=" img-fluid " />
           </Col>
           <Col sm={6} className="mt-5 ">

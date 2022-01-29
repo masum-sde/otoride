@@ -23,3 +23,9 @@
   background-color: black !important;
   margin-bottom: 2rem;
 }
+
+@media only screen and (width < 576px) {
+  .dashboard-app img {
+    width: 250px;
+  }
+}

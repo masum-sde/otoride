@@ -30,7 +30,7 @@ const OperatorSection = () => {
     <section className="operator-section">
       <Container fluid="md">
         <Row>
-          <Col sm={6} className="d-flex align-items-center justify-content-center">
+          <Col sm={6} className="d-flex align-items-center justify-content-center operator-app">
             <img src={mobileOperator} alt="" className=" img-fluid " />
           </Col>
           <Col sm={6} className="mt-5 ">

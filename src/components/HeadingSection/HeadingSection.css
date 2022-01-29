@@ -17,3 +17,9 @@
   background-color: black !important;
   margin-bottom: 2rem;
 }
+
+@media only screen and (width < 768px) {
+  .header-image img {
+    display: none;
+  }
+}
