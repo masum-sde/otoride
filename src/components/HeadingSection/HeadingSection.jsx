@@ -41,7 +41,7 @@ const HeadingSection = () => {
               </Col>
             </Row>
           </Col>
-          <Col md={6}>
+          <Col md={6} className="header-image">
             <img src={headingPic} alt="picture" className="img-fluid" />
           </Col>
         </Row>

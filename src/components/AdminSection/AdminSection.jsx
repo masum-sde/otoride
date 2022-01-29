@@ -66,7 +66,7 @@ const AdminSection = () => {
           <Col
             xs={{ span: 12, order: 1 }}
             sm={{ span: 6, order: 2 }}
-            className="d-flex align-items-center justify-content-center"
+            className="d-flex align-items-center justify-content-center dashboard-app"
           >
             <img src={images[currentIndex]} alt="" className=" img-fluid " />
           </Col>
