@@ -2,3 +2,8 @@
   font-weight: 400px;
   font-size: 400;
 }
+
+.list-item-model img {
+  height: 36px;
+  width: 36px;
+}

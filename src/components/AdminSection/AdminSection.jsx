@@ -16,17 +16,17 @@ const AdminSection = () => {
     {
       id: 1,
       icon: adminIcon1,
-      title: "User Management",
+      title: "Real Time Operation Control ",
     },
     {
       id: 2,
       icon: adminIcon2,
-      title: "Trip Management",
+      title: "High Level of Details Monitoring",
     },
     {
       id: 3,
       icon: adminIcon3,
-      title: "Offers and promotions Management",
+      title: "Fast Customer Acquisition tool",
     },
   ];
 
