@@ -19,12 +19,12 @@ const UserSection = () => {
     {
       id: 2,
       icon: userIcon2,
-      title: "Fast Unlocking & Locking",
+      title: "Fast Unlocking and Locking experience",
     },
     {
       id: 3,
       icon: userIcon3,
-      title: "Multiple Language Support",
+      title: "Our Interface and your brand",
     },
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
